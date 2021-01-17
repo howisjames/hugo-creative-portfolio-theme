@@ -4,6 +4,8 @@ showonlyimage = true
 draft = false
 date = "2016-11-05T19:53:42+05:30"
 title = "Name of the work 5"
+category = "paper"
+tags = ["soft", "light","warm"]
 weight = 5
 +++
 
