@@ -9,6 +9,11 @@
         <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
+            
+    {{ partial "sidebar-categories.html" . }}
+        
+    {{ partial "sidebar-tags.html" . }}
+    
     {{ partial "social_buttons_in_sidebar.html" . }}
 
     <div class="copyright">
