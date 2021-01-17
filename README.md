@@ -8,6 +8,8 @@ Creative portfolio is a clean and elegant template mainly made for designers and
 
 This Hugo theme was ported from [Bootstrapious](https://bootstrapious.com/p/creative-portfolio) for training and fun. It has a very nice landing page, a comments system by Disqus, contact forms by Formspree and Google Analytics.
 
+And, it was ported again from [kishaningithub](https://travis-ci.org/kishaningithub/hugo-creative-portfolio-theme) with the intention of adding taxonomies to the left panel in the form of a list of post categories and tags. 
+
 ![screenshot](https://raw.githubusercontent.com/kishaningithub/hugo-creative-portfolio-theme/master/images/screenshot.png)
 
 ## Installation
