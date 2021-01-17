@@ -4,6 +4,8 @@ title = "Name of the work 2"
 draft = false
 image = "img/portfolio/business-card-26.jpg"
 showonlyimage = false
+category = "rock"
+tags = ["hard", "heavy","cold"]
 weight = 1
 +++
 
