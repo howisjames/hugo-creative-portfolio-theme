@@ -4,7 +4,7 @@ image = "img/portfolio/trifold.jpg"
 showonlyimage = true
 date = "2016-11-05T20:22:08+05:30"
 title = "Item with image"
-category = "scissors"
+categories = ["scissors"]
 tags = ["hard", "light","cold"]
 weight = 10
 +++

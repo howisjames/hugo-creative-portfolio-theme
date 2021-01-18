@@ -4,7 +4,7 @@ image = ""
 showonlyimage = false
 date = "2016-11-05T19:50:47+05:30"
 title = "Item without image"
-category = "paper"
+categories = ["paper"]
 tags = ["soft", "light","warm"]
 weight = 4
 +++

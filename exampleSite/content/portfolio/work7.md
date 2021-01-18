@@ -4,7 +4,7 @@ showonlyimage = false
 date = "2016-11-05T19:57:40+05:30"
 title = "Name of the work 7"
 draft = false
-category = "paper"
+categories = ["paper"]
 tags = ["soft", "light","cold"]
 weight = 7
 +++
