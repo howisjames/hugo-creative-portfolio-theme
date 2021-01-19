@@ -6,6 +6,22 @@
       <div class="content-column-content">
          <h1>{{ .Title }}</h1>
          {{ .Content }}
+		 <!-- Tags -->
+          <div class="row">
+            <div class="col-md-8">
+            {{ if .Params.tags }}
+              <div class="mb-5">
+                {{ partial "tags.html" . }}
+              </div>
+            {{ end }}
+            </div>
+            <!-- <div class="col-md-4">
+              <ul class="ul-x post-meta mb-5">
+                <li><a href="{{ .Type | relLangURL }}"><i class="fa fa-long-arrow-alt-right pr-2"></i>{{ i18n "return" }}</a></li>
+              </ul>
+            </div> -->
+          </div>
+          <!-- /.Tags -->
          {{ template "_internal/disqus.html" . }}
       </div>
     </div>

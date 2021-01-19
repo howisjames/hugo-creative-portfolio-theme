@@ -12,13 +12,13 @@
       <div class="mb-2">
         <a href="{{ "categories/" | absLangURL }}">
           <span class="font-weight-bold text-uppercase post-meta">
-            <i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 
+            <i class="fa fa-folder-open pr-1" aria-hidden="true"></i> 
             Categories
           </span>
         </a>
       </div>
 
-      <div class="li-x post-meta" style="margin-left: -8px;">
+      <div class="li-x post-meta tags-md" style="margin-left: 0px;">
         {{ if eq $kind "section" }}
           <!-- Section -->
           {{ range $index, $element := where .ByCount "Name" "in" $terms }}
