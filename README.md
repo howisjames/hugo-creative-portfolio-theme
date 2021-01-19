@@ -2,15 +2,16 @@
 
 [![Build Status](https://travis-ci.org/kishaningithub/hugo-creative-portfolio-theme.svg?branch=master)](https://travis-ci.org/kishaningithub/hugo-creative-portfolio-theme)
 [![Join the chat at https://gitter.im/hugo-creative-portfolio-theme/Lobby](https://badges.gitter.im/hugo-creative-portfolio-theme/Lobby.svg)](https://gitter.im/hugo-creative-portfolio-theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Buy me a coffee](https://img.shields.io/badge/☕-Buy%20me%20a%20coffee-blue.svg)](https://www.paypal.me/kishansh/5)
 
 Creative portfolio is a clean and elegant template mainly made for designers and creatives but can be easily transformed into a generic website.
 
 This Hugo theme was ported from [Bootstrapious](https://bootstrapious.com/p/creative-portfolio) for training and fun. It has a very nice landing page, a comments system by Disqus, contact forms by Formspree and Google Analytics.
 
-And, it was ported again by howisjames from [kishaningithub](https://github.com/kishaningithub/hugo-creative-portfolio-theme) with the intention of adding taxonomies to the left panel in the form of a list of post categories and tags. 
+And, this version was ported again by [howisjames](https://github.com/howisjames) from [kishaningithub](https://github.com/kishaningithub/hugo-creative-portfolio-theme) with the intention of adding taxonomies to the left panel in the form of a list of post categories and tags.
 
-![screenshot](https://raw.githubusercontent.com/kishaningithub/hugo-creative-portfolio-theme/master/images/screenshot.png)
+![homepage screenshot](https://github.com/howisjames/hugo-creative-portfolio-theme/blob/master/images/screenshot-homepage-tn.jpg)
+
+![post screenshot](https://github.com/howisjames/hugo-creative-portfolio-theme/blob/master/images/screenshot-post-tn.jpg)
 
 ## Installation
 
@@ -43,7 +44,7 @@ Available options are: `default` (pink), `blue`, `green`, `pink`, `red`, `sea`, 
 
 ### More style customizations?
 
-Create `css/custom.css` in your `<<base dir>>/static` folder and add all your custom styling.
+Edit `css/custom.css` in your `<<base dir>>/static` folder and add all your custom styling. (Keep existing styles which are required by the taxonomies of categories and tags.)
 
 ### Comments
 
@@ -65,7 +66,7 @@ googleAnalytics = "UA-XXXXX-X"
 
 Leave the `googleAnalytics` key empty to disable it.
 
-### Make the contact form working
+### Set up the contact form
 
 Since this page will be static, you can use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:
 
